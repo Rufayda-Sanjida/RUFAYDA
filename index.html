@@ -1,0 +1,62 @@
+<html>
+  <body>
+
+    <head>
+      <title>CatPhotoApp</title>
+  </head>
+ 
+    <main> 
+
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <p>Everyone loves cute cats online!</p>
+
+      <section>
+      <!-- some tags dont have closing tags (img) -->
+      <!-- HTML attributes come inside the first tag-->
+
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+      <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" target="_blank">cute cats</a> online!</p>
+      </section>
+
+      <section>
+        <h2>Cat lists</H2>
+          <h3>You can wrap a hyperlink into a image so when you click image you are taken to the link</h3>
+          <!--YOU CAN WRAP ANYTHING!!! -->
+          <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"> <img src="gorl.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+
+      <section>
+        <!-- forms in html is for getting userInput!-->
+        <h2>Example of a form:</H2>
+        
+        <form action="/submit-url">
+          <!-- input tag basically specifies all the types of inputs available where user can input -->
+          <input id="var1" type="text" name="variable1" required placeholder="name...">
+          <input id="var2" type="radio" name="variable2" value="var2" checked> radioButton1 <!--radio buttons need values so when you select it, the name is set to that value! same name so only one is taken in var-->
+          <input id="var3" type="radio" name="variable2" value="var3"> radioButton2
+          <button id="button1" type="submit">Submit</button>
+        </form>
+
+      </section>
+
+
+      <section>
+        <!--fieldset -->
+        <fieldset>
+          <legend> Are you a boy or a girl? </legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Girl </label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Boy</label>
+          </fieldset>
+
+          <legend>What's your cat's personality?</legend> <!-- correct way to actually link the label of something to the input type!! -->
+          <input id="loving" type="checkbox">
+          <label for="loving">Loving</label>
+
+      </section>
+    
+    </main>
+
+
+  </body>
+</html>

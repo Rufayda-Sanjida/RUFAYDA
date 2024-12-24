@@ -1,0 +1,126 @@
+/* comments look like this */
+
+h1, h2, p{
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+p:active{
+    color:#F5EFFF
+}
+
+p:hover{
+    color:black
+}
+
+a:visited {
+    color: black;
+  }
+  
+h1, h2{
+    font-family: "Lucida Console";
+}
+
+body{
+    background-color: #C5D3E8;
+    font-family: Georgia;
+   
+}
+
+.menu {
+    background-color: #F5EFFF;
+    width: 80%;            /* so our page is like 100% and only 20% is taken up by this element width wise */
+    margin-left: auto;     /* ensures the space on either side of the element is equal, resulting in horizontal centering */
+    margin-right: auto; /* space outside the element*/
+    padding-left: 20px; /* space INSIDE the element (border - content so no overlapping) */
+    padding-right:20px; /*Padding is the inner space between the content of an element and its edge (or border). It ensures that the content (like text or images) inside an element doesn't directly touch the edge of the element. */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 500px; /* so if you make the screen wider, it will not esceed the 500px*/
+
+}
+
+.look {
+    text-align: left;
+    width: 75%;
+}
+
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.item p{ /* this targets ALL of the Ps*/
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    font-size: 18px;
+}  /* all of the p elements which usually are in separate lines WILL now sit next to each other BUT inline-block elements only take up the width of their content. */
+
+
+
+.established{
+    font-style: italic;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+  
+h2{
+    font-size: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;  
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+}
+
+a{
+    color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
